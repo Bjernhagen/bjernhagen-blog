@@ -8,6 +8,7 @@ Personlig blogg byggd med [Hugo](https://gohugo.io/), med kategorierna **Resor**
 - [Lägga till ett nytt inlägg](#lägga-till-ett-nytt-inlägg)
 - [Frontmatter-fält](#frontmatter-fält)
 - [Hero-bilder](#hero-bilder)
+- [Videor](#videor)
 - [Kategorisidor och arkiv](#kategorisidor-och-arkiv)
 - [RSS-feed](#rss-feed)
 - [Mappstruktur](#mappstruktur)
@@ -76,6 +77,20 @@ draft: false
 ## Hero-bilder
 
 Lägg bildfiler i `static/images/` och referera till dem i frontmatter som `/images/filnamn.jpg`. Bilderna visas som stort hero-foto överst på inlägget och som utsnitt i inläggskorten. Exempel-inläggen använder genererade SVG-bilder — byt gärna ut dem mot egna foton.
+
+## Videor
+
+Ladda upp videon till YouTube eller Vimeo (kan vara **"Olistad"** på YouTube om du inte vill att den ska synas i sökningar — bara den med länken hittar den) och bädda in den var som helst i inläggstexten:
+
+```
+{{< youtube VIDEO-ID >}}
+```
+
+`VIDEO-ID` är delen efter `v=` i YouTube-länken, t.ex. `dQw4w9WgXcQ` från `youtube.com/watch?v=dQw4w9WgXcQ`.
+
+För Vimeo används samma sätt: `{{< vimeo VIDEO-ID >}}`.
+
+Ladda inte upp videofiler direkt i projektet — de blir för stora för Git och Netlifys gratisgränser. YouTube/Vimeo sköter streaming och komprimering gratis.
 
 ## Kategorisidor och arkiv
 
