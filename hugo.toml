@@ -1,0 +1,42 @@
+baseURL = "https://bjernhagen.se/"
+locale = "sv-SE"
+title = "Bjernhagen"
+copyright = "© 2026 Bjernhagen"
+
+enableRobotsTXT = true
+paginate = 9
+
+[params]
+  tagline = "Resor, tankar och projekt"
+  description = "Bjernhagens personliga blogg om resor, tankar och projekt."
+  author = "Bjernhagen"
+
+[menu]
+  [[menu.main]]
+    name = "Hem"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Resor"
+    url = "/resor/"
+    weight = 2
+  [[menu.main]]
+    name = "Tankar"
+    url = "/tankar/"
+    weight = 3
+  [[menu.main]]
+    name = "Projekt"
+    url = "/projekt/"
+    weight = 4
+  [[menu.main]]
+    name = "Arkiv"
+    url = "/arkiv/"
+    weight = 5
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

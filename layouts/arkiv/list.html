@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="page-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="page-intro">Alla inlägg samlade på ett ställe, sorterade efter datum.</p>
+</section>
+
+{{ $posts := where site.RegularPages "Type" "in" (slice "resor" "tankar" "projekt") }}
+{{ $posts = $posts.ByDate.Reverse }}
+{{ if $posts }}
+{{ $years := slice }}
+{{ range $posts }}{{ $years = $years | append .Date.Year }}{{ end }}
+{{ $years = $years | uniq }}
+<div class="archive-list">
+  {{ range $years }}
+  {{ $year := . }}
+  <h2 class="archive-year">{{ $year }}</h2>
+  <ul class="archive-entries">
+    {{ range where $posts "Date.Year" "eq" $year }}
+    <li class="archive-entry">
+      <span class="archive-date">{{ partial "svdatum-kort.html" .Date }}</span>
+      <a href="{{ .RelPermalink }}" class="archive-title">{{ .Title }}</a>
+      <span class="badge badge-{{ .Section }} badge-small">{{ .Section | humanize }}</span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ else }}
+<p class="empty-state">Inga inlägg än.</p>
+{{ end }}
+{{ end }}

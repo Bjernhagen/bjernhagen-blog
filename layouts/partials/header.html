@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="{{ "/" | relURL }}">Bjernhagen<span class="logo-dot">.</span></a>
+    <nav class="main-nav">
+      {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      <a class="rss-link" href="{{ "/index.xml" | relURL }}" title="Prenumerera via RSS">RSS</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="post">
+  <div class="post-header">
+    <span class="badge badge-{{ .Section }}"><a href="{{ .Section | relURL }}">{{ .Section | humanize }}</a></span>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-meta">Publicerad {{ partial "svdatum.html" .Date }}{{ if .Params.author }} av {{ .Params.author }}{{ end }}</p>
+  </div>
+  {{ with .Params.hero }}
+  <div class="post-hero" style="background-image:url('{{ . | relURL }}');"></div>
+  {{ end }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  <div class="post-footer">
+    <a class="back-link" href="{{ .Section | relURL }}">← Tillbaka till {{ .Section | humanize }}</a>
+  </div>
+</article>
+{{ end }}

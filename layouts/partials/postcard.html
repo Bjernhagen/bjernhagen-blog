@@ -1,0 +1,19 @@
+{{ $p := . }}
+<article class="card">
+  <a class="card-link" href="{{ $p.RelPermalink }}">
+    {{ with $p.Params.hero }}
+    <div class="card-hero" style="background-image:url('{{ . | relURL }}');"></div>
+    {{ end }}
+    <div class="card-body">
+      <span class="badge badge-{{ $p.Section }}">{{ $p.Section | humanize }}</span>
+      <h3 class="card-title">{{ $p.Title }}</h3>
+      <p class="card-date">{{ partial "svdatum.html" $p.Date }}</p>
+      {{ if $p.Description }}
+      <p class="card-excerpt">{{ $p.Description }}</p>
+      {{ else }}
+      <p class="card-excerpt">{{ $p.Summary | plainify | truncate 120 }}</p>
+      {{ end }}
+      <span class="card-readmore">Läs mer →</span>
+    </div>
+  </a>
+</article>

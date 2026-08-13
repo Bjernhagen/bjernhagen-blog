@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="hero">
+  <h1 class="hero-title">Bjernhagen</h1>
+  <p class="hero-tagline">{{ site.Params.tagline }}</p>
+  <div class="hero-categories">
+    <a href="{{ "/resor/" | relURL }}" class="pill pill-resor">Resor</a>
+    <a href="{{ "/tankar/" | relURL }}" class="pill pill-tankar">Tankar</a>
+    <a href="{{ "/projekt/" | relURL }}" class="pill pill-projekt">Projekt</a>
+  </div>
+</section>
+
+<section class="post-grid-section">
+  <h2 class="section-heading">Senaste inläggen</h2>
+  {{ $posts := where site.RegularPages "Type" "in" (slice "resor" "tankar" "projekt") }}
+  {{ $posts = $posts.ByDate.Reverse }}
+  {{ if $posts }}
+  <div class="post-grid">
+    {{ range $posts }}
+    {{ partial "postcard.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+  <p class="empty-state">Inga inlägg än. Kom tillbaka snart!</p>
+  {{ end }}
+</section>
+{{ end }}
