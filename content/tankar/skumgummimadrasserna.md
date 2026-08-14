@@ -2,6 +2,7 @@
 title: "Skumgummimadrasserna"
 date: 2026-08-14
 category: "Tankar"
+hero: "/images/tankar-skumgummimadrasser.svg"
 description: "Ett minne från Mönsterås på 1960-talet väcker tankar om barns frihet då och nu."
 draft: false
 ---
