@@ -6,6 +6,7 @@ Personlig blogg byggd med [Hugo](https://gohugo.io/), med kategorierna **Resor**
 
 - [Kom igång lokalt](#kom-igång-lokalt)
 - [Lägga till ett nytt inlägg](#lägga-till-ett-nytt-inlägg)
+- [Skriva från projektet Funderingar](#skriva-från-projektet-funderingar)
 - [Frontmatter-fält](#frontmatter-fält)
 - [Hero-bilder](#hero-bilder)
 - [Videor](#videor)
@@ -49,6 +50,36 @@ hugo new projekt/mitt-nya-projekt.md
 ```
 
 Öppna sedan den skapade filen, fyll i innehåll och sätt `draft: false` när inlägget är klart att publiceras.
+
+## Skriva från projektet Funderingar
+
+Inläggen kan skrivas i Claude-projektet **Funderingar** och publiceras härifrån:
+
+1. Skriv klart inlägget i projektet och be om en Markdown-fil med frontmatter (instruktionen nedan ligger i projektets instruktioner).
+2. Spara filen, t.ex. i Hämtade filer.
+3. Be Claude Code i den här mappen: *"Lägg in `filnamn.md` under Tankar"* (eller Resor/Projekt). Filen läggs in i rätt kategorimapp, sidan byggs för kontroll och publiceras (push till GitHub) först när du säger till.
+4. Har du en bild, ange filen så komprimeras den och läggs i `static/images/`. Saknas bild kan en stiliserad SVG skapas.
+
+Den kategori du anger när du ber om publicering styr vilken mapp filen hamnar i. Datumet i frontmatter styr sorteringen, så sätt ett äldre datum för ett äldre minne.
+
+Instruktion att klistra in i projektet Funderingar:
+
+```
+När jag ber dig skriva klart ett blogginlägg: leverera en Markdown-fil på svenska med exakt denna frontmatter:
+
+---
+title: "Rubrik"
+date: ÅÅÅÅ-MM-DD
+category: "Tankar"   # Resor, Tankar eller Projekt
+hero: ""             # lämna tomt om bild saknas
+description: "En mening som sammanfattar inlägget"
+draft: false
+---
+
+Brödtexten i Markdown. Upprepa inte rubriken i texten (titeln visas automatiskt).
+Använd ## för mellanrubriker. Filnamnet ska vara en kort slug utan å, ä, ö,
+till exempel skumgummimadrasserna.md.
+```
 
 ## Frontmatter-fält
 
