@@ -11,6 +11,8 @@ Nu var det dags. I vintras for vi iväg på en nästan tre månader lång resa �
 
 **Resmål:** Sydafrika → Perth → Sydvästra Australien → Christmas Island → Cocos (Keeling) Islands → Nordvästra Australien → Perth → Singapore → Chennai, Indien
 
+{{< youtube TAn2pTLTzO8 >}}
+
 ## Avfärd från Västerås
 
 ![Vi två med alla väskor packade, redo att lämna Västerås](/images/resor-vasteras-avfard.jpg)
