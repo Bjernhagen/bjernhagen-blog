@@ -9,6 +9,8 @@ draft: false
 
 Dag 3, och färden fortsätter österut längs kusten! Med en rejäl sydafrikansk frukost i magen – i princip en engelsk frukost med soligt humör – tackar vi vårt trevliga värdpar i Gansbaai och rullar ut. (Och märker igen hur mycket av orten som är semesterhus – lugnt, vackert, och rejält tillbommat eftersom det är lågsäsong.)
 
+{{< youtube 1fikHmW97mU >}}
+
 ![Den gigantiska Afrikakartan vid Agulhas](/images/resor-agulhas-afrikakarta.jpg)
 
 Första målet för dagen: **Agulhas – Afrikas sydligaste spets!** På vägen svänger vi av till Pearly Beach, en semesterort vid Southern Ocean som är precis lika vacker som namnet lovar – även om den också är mer tillbommad än bebodd.
