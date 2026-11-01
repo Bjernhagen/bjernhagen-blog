@@ -2,7 +2,7 @@
 title: "Pingviner, solnedgångar & en helikopterpilots historia – Kustäventyret fortsätter!"
 date: 2026-10-31
 category: "Resor"
-hero: ""
+hero: "/images/resor-false-bay-kust.jpg"
 description: "Pingvinkolonin vid Stony Point, en solnedgång över havet och ett B&B vars värdpar har en historia värd en egen film."
 draft: false
 ---
@@ -10,6 +10,8 @@ draft: false
 Efter gårdagens äventyr vid Godahoppsudden är det dags att lämna Afrikas sydspets bakom oss – och låta kusten leda oss österut. 🌅
 
 {{< youtube rrZQIg9qmE8 >}}
+
+![Pingvinkolonin vid Stony Point i Betty's Bay](/images/resor-stony-point-pingviner.jpg)
 
 Dagen börjar, som alla bra dagar gör, med frukost på ett charmigt fik i Simon's Kloof. Smashed avocado på tallriken, solen på himlen och äventyret i sikte. Vad mer kan man önska sig?
 
@@ -24,5 +26,7 @@ Efter en promenad bland Sydafrikas unika växtlighet i Harold Porter National Bo
 Dagen slutar i Gansbaai, på ett härligt B&B drivet av ett äldre par med en historia värd en egen film: han, pensionerad helikopterpilot med uppdrag i Kosovo, hon – som under alla år, ensam hemma, tryggt och säkert skötte B&B:t. Krig, kärlek och gästfrihet i ett!
 
 Och som en gåva på slutet: en solnedgång i Apokalyps-orange över havet. En perfekt avslutning på en dag fylld av pingviner, utsikter och människoöden.
+
+![Solnedgång i Apokalyps-orange över havet i Gansbaai](/images/resor-gansbaai-solnedgang.jpg)
 
 Imorgon väntar nya äventyr – vi ses där! 🚐✨
