@@ -12,6 +12,14 @@
     {{ .Content }}
   </div>
   <div class="post-footer">
+    {{ if eq .Section "resor" }}
+    {{ with .NextInSection }}
+    <a class="next-post" href="{{ .RelPermalink }}">
+      <span class="next-label">Nästa inlägg</span>
+      <span class="next-title">{{ .Title }} →</span>
+    </a>
+    {{ end }}
+    {{ end }}
     <a class="back-link" href="{{ .Section | relURL }}">← Tillbaka till {{ .Section | humanize }}</a>
   </div>
 </article>

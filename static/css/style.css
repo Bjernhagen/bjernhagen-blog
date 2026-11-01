@@ -276,6 +276,33 @@ a { color: inherit; text-decoration: none; }
 .post-footer {
   padding: 0 32px 32px;
 }
+.next-post {
+  display: block;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #f5eefb;
+  border: 1px solid #e3d3f3;
+  color: var(--ink);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.next-post:hover {
+  background: #eddcf8;
+  transform: translateY(-2px);
+}
+.next-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.next-title {
+  font-weight: 700;
+  color: var(--purple-1);
+}
 .back-link {
   font-weight: 600;
   color: var(--purple-1);

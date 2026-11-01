@@ -21,7 +21,7 @@ Sedan vändpunkten för dagen: Betty's Bay och pingvinkolonin vid Stony Point. �
 
 Efter en promenad bland Sydafrikas unika växtlighet i Harold Porter National Botanical Gardens – där fjällandskapet möter fynbos så långt ögat når – äter vi lunch i Kleinmond. Fish & chips? Nja... inte direkt en höjdare. Men det ska mer än lite trött fisk till för att sänka vårt humör!
 
-Dagen slutar i Gansbaii, på ett härligt B&B drivet av ett äldre par med en historia värd en egen film: han, pensionerad helikopterpilot med uppdrag i Kosovo, hon – som under alla år, ensam hemma, tryggt och säkert skötte B&B:t. Krig, kärlek och gästfrihet i ett!
+Dagen slutar i Gansbaai, på ett härligt B&B drivet av ett äldre par med en historia värd en egen film: han, pensionerad helikopterpilot med uppdrag i Kosovo, hon – som under alla år, ensam hemma, tryggt och säkert skötte B&B:t. Krig, kärlek och gästfrihet i ett!
 
 Och som en gåva på slutet: en solnedgång i Apokalyps-orange över havet. En perfekt avslutning på en dag fylld av pingviner, utsikter och människoöden.
 
